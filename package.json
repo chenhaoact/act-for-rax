@@ -1,0 +1,20 @@
+{
+  "name": "act-for-rax",
+  "author": "chenhaoact",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "rax-scripts start",
+    "build": "rax-scripts build",
+    "lint": "eslint --ext .js --ext .jsx ./src"
+  },
+  "dependencies": {
+    "rax": "^0.3.6",
+    "rax-view": "^0.3.6",
+    "rax-text": "^0.3.6"
+  },
+  "devDependencies": {
+    "rax-scripts": "^0.3.6",
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.10.0"
+  }
+}
